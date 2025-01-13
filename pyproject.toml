@@ -1,12 +1,18 @@
 [project]
-name = "workshoptopic-mmmyyyy"
+name = "eval-llm-based-apps-jan2025"
 version = "0.1.0"
-description = "Add your description here"
+authors = [
+    {name = "Una Galyeva"},
+]
+description = "Explore different LLM apps evaluation techniques. Incorporate them into your test suite. Lay the monitoring foundation."
 readme = "README.md"
 requires-python = ">=3.8"
-dependencies = []
+dependencies = [
+    "evidently[llm]>=0.5.1",
+]
 
 [tool.uv]
 dev-dependencies = [
+    "ipykernel>=6.29.5",
     "pre-commit>=3.5.0",
 ]
