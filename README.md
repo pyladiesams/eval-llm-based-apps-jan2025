@@ -14,7 +14,6 @@ This workshop focuses on understanding evaluation-driven development and archite
 
 ### Optional requirements
 * [uv](https://docs.astral.sh/uv/) for dependency management
-* [poetry](https://python-poetry.org/) for dependency management
 * Google account if you want to use [Google Colab](https://colab.research.google.com/)
 
 ## Usage
@@ -27,24 +26,6 @@ cd eval-llm-based-apps-jan2025
 
 # create and activate venv, install dependencies
 uv sync
-```
-### with poetry
-Run the following code:
-```bash
-git clone https://github.com/pyladiesams/eval-llm-based-apps-jan2025.git
-cd eval-llm-based-apps-jan2025
-
-# configure poetry to use a local venv (optional):
-poetry config virtualenvs.in-project true
-
-# activate venv
-poetry env activate
-
-# install dependencies
-poetry install
-
-# start notebook from within the virtual environment
-jupyter notebook
 ```
 ### with Google collab
 1. Visit [Google Colab](https://colab.research.google.com/)
