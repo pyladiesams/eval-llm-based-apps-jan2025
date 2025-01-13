@@ -19,17 +19,21 @@ This workshop focuses on understanding evaluation-driven development and archite
 
 ## Usage
 
-Clone this repo and navigate to its root folder
-
 ### with uv
 Run the following code:
 ```bash
+git clone https://github.com/pyladiesams/eval-llm-based-apps-jan2025.git
+cd eval-llm-based-apps-jan2025
+
 # create and activate venv, install dependencies
 uv sync
 ```
 ### with poetry
 Run the following code:
 ```bash
+git clone https://github.com/pyladiesams/eval-llm-based-apps-jan2025.git
+cd eval-llm-based-apps-jan2025
+
 # configure poetry to use a local venv (optional):
 poetry config virtualenvs.in-project true
 
@@ -47,12 +51,12 @@ jupyter notebook
 2. In the top left corner select "File" &#8594; "Open Notebook"
 3. Under "GitHub", enter the URL of the repo of this workshop
 4. Select one of the notebooks within the repo.
-5. At the top of the notebook, run the following code:
+5. At the top of the notebook, add a Code cell and run the following code:
 ```bash
-!cd ./eval-llm-based-apps-jan2025
+!git clone https://github.com/pyladiesams/eval-llm-based-apps-jan2025.git
+%cd eval-llm-based-apps-jan2025
 !pip install -r requirements.txt
 ```
-
 ## Video record
 Re-watch [this YouTube stream](https://www.youtube.com/live/phpQ5hmC08E?feature=shared)
 
