@@ -1,5 +1,5 @@
 
-# Evaluating LLM based applications
+# Evaluating LLM-based applications
 
 ## Workshop description
 It is so easy and quick to build a shiny PoC using LLMs and it is so hard to turn it into a production-grade LLM application. To succeed you need a robust evaluation framework, which you are going to use during the development and post-deployment of your LLM based app.
@@ -7,7 +7,7 @@ It is so easy and quick to build a shiny PoC using LLMs and it is so hard to tur
 This workshop focuses on understanding evaluation-driven development and architecture of a LLM based app, building an evaluation framework for a LLM based app, establishing a test suite with evals and laying the monitoring foundations for it. All of it by leveraging Python OSS libraries.
 
 ## Requirements
-### General requrements
+### General requirements
 * basic Python knowledge
 * basic understanding of ML testing
 * basic understanding of ML monitoring
@@ -27,9 +27,9 @@ cd eval-llm-based-apps-jan2025
 # create and activate venv, install dependencies
 uv sync
 ```
-### with Google collab
+### with Google Colab
 1. Visit [Google Colab](https://colab.research.google.com/)
-2. In the top left corner select "File" &#8594; "Open Notebook"
+2. In the top left corner, select "File" &#8594; "Open Notebook"
 3. Under "GitHub", enter the URL of the repo of this workshop
 4. Select one of the notebooks within the repo.
 5. At the top of the notebook, add a Code cell and run the following code:
@@ -42,7 +42,7 @@ uv sync
 Re-watch [this YouTube stream](https://www.youtube.com/live/phpQ5hmC08E?feature=shared)
 
 ## Credits
-This workshop was set up by @pyladiesams and @una-ai-mlops-agency
+This workshop was set up by @pyladiesams and @una-gal
 
 ## Appendix
 ### Pre-Commit Hooks
